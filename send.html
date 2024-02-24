@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="send.css">
+</head>
+<body>
+    <div id="form-main">
+        <div id="form-div">
+          <form class="form" id="form1">
+            
+            <p class="name">
+              <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Your Story Title " id="name" />
+            </p>
+            
+            
+      <select class="select" name="" id="">
+          <option value="">Select your category </option>
+                <option value="">Romance</option>
+                <option value="">comedy</option>
+                <option value="">Drama</option>
+                <option value="">Fantasy</option>
+                <option value="">Fairy Tale</option>
+                <option value="">Horror</option>
+
+                <option value="">Mystery</option>
+                <option value="">Science Fiction</option>
+                <option value="">Short Story</option>
+ 
+            </select>
+            <p class="text">
+              <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Summary"></textarea>
+            </p>
+  
+                <a href="">importer un fichier</a> <br>
+           
+           
+            
+            <div class="submit">
+              <input type="submit" value="SEND" id="button-blue"/>
+              <div class="ease"></div>
+
+              
+            </div>
+          </form>
+        </div>
+</body>
+</html>

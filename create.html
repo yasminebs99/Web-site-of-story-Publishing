@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="create.css">
+</head>
+<body>
+    <div class="container">  
+        <form id="contact" action="connect.php" method="post">
+          <h3>Create your account</h3>
+        
+          <fieldset>
+            <input placeholder="Your first name" type="text" tabindex="1" required autofocus name="firstName" value="">
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your last name" type="text" tabindex="1" required autofocus name="lastName">
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Email Address" type="email" tabindex="2" required name="mail">
+          </fieldset>
+          <fieldset>
+            <input  class="pass" placeholder="Your Password" type="password" tabindex="2" required name="mdp">
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required name="num">
+          </fieldset>
+        
+          <fieldset>
+            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+          </fieldset>
+         
+        </form>
+      </div>  
+</body>
+</html>
